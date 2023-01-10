@@ -40,39 +40,6 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = D$:/Studyspace/C11space/cmake-build-debug/
-# =============================================================================
-# Object build statements for EXECUTABLE target C11space
-
-
-#############################################
-# Order-only phony target for C11space
-
-build cmake_object_order_depends_target_C11space: phony || CMakeFiles/C11space.dir
-
-build CMakeFiles/C11space.dir/Datastructure/08.Graph/Graph.cpp.obj: CXX_COMPILER__C11space_Debug D$:/Studyspace/C11space/Datastructure/08.Graph/Graph.cpp || cmake_object_order_depends_target_C11space
-  DEP_FILE = CMakeFiles\C11space.dir\Datastructure\08.Graph\Graph.cpp.obj.d
-  FLAGS = -g -std=gnu++11
-  OBJECT_DIR = CMakeFiles\C11space.dir
-  OBJECT_FILE_DIR = CMakeFiles\C11space.dir\Datastructure\08.Graph
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target C11space
-
-
-#############################################
-# Link the executable C11space.exe
-
-build C11space.exe: CXX_EXECUTABLE_LINKER__C11space_Debug CMakeFiles/C11space.dir/Datastructure/08.Graph/Graph.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\C11space.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = C11space.exe
-  TARGET_IMPLIB = libC11space.dll.a
-  TARGET_PDB = C11space.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -117,6 +84,105 @@ build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
   TARGET_IMPLIB = libmain.dll.a
   TARGET_PDB = main.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Day01
+
+
+#############################################
+# Order-only phony target for Day01
+
+build cmake_object_order_depends_target_Day01: phony || CMakeFiles/Day01.dir
+
+build CMakeFiles/Day01.dir/C++primer/Day01.cpp.obj: CXX_COMPILER__Day01_Debug D$:/Studyspace/C11space/C++primer/Day01.cpp || cmake_object_order_depends_target_Day01
+  DEP_FILE = CMakeFiles\Day01.dir\C++primer\Day01.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\Day01.dir
+  OBJECT_FILE_DIR = CMakeFiles\Day01.dir\C++primer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Day01
+
+
+#############################################
+# Link the executable Day01.exe
+
+build Day01.exe: CXX_EXECUTABLE_LINKER__Day01_Debug CMakeFiles/Day01.dir/C++primer/Day01.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Day01.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Day01.exe
+  TARGET_IMPLIB = libDay01.dll.a
+  TARGET_PDB = Day01.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Day02
+
+
+#############################################
+# Order-only phony target for Day02
+
+build cmake_object_order_depends_target_Day02: phony || CMakeFiles/Day02.dir
+
+build CMakeFiles/Day02.dir/C++primer/Day02.cpp.obj: CXX_COMPILER__Day02_Debug D$:/Studyspace/C11space/C++primer/Day02.cpp || cmake_object_order_depends_target_Day02
+  DEP_FILE = CMakeFiles\Day02.dir\C++primer\Day02.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\Day02.dir
+  OBJECT_FILE_DIR = CMakeFiles\Day02.dir\C++primer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Day02
+
+
+#############################################
+# Link the executable Day02.exe
+
+build Day02.exe: CXX_EXECUTABLE_LINKER__Day02_Debug CMakeFiles/Day02.dir/C++primer/Day02.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Day02.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Day02.exe
+  TARGET_IMPLIB = libDay02.dll.a
+  TARGET_PDB = Day02.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Graph
+
+
+#############################################
+# Order-only phony target for Graph
+
+build cmake_object_order_depends_target_Graph: phony || CMakeFiles/Graph.dir
+
+build CMakeFiles/Graph.dir/Datastructure/07.Graph/Graph.cpp.obj: CXX_COMPILER__Graph_Debug D$:/Studyspace/C11space/Datastructure/07.Graph/Graph.cpp || cmake_object_order_depends_target_Graph
+  DEP_FILE = CMakeFiles\Graph.dir\Datastructure\07.Graph\Graph.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\Graph.dir
+  OBJECT_FILE_DIR = CMakeFiles\Graph.dir\Datastructure\07.Graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Graph
+
+
+#############################################
+# Link the executable Graph.exe
+
+build Graph.exe: CXX_EXECUTABLE_LINKER__Graph_Debug CMakeFiles/Graph.dir/Datastructure/07.Graph/Graph.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Graph.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Graph.exe
+  TARGET_IMPLIB = libGraph.dll.a
+  TARGET_PDB = Graph.exe.dbg
+
 
 #############################################
 # Utility command for rebuild_cache
@@ -132,7 +198,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build C11space: phony C11space.exe
+build Day01: phony Day01.exe
+
+build Day02: phony Day02.exe
+
+build Graph: phony Graph.exe
 
 build main: phony main.exe
 
@@ -144,7 +214,7 @@ build main: phony main.exe
 #############################################
 # Folder: D:/Studyspace/C11space/cmake-build-debug
 
-build all: phony C11space.exe main.exe
+build all: phony main.exe Day01.exe Day02.exe Graph.exe
 
 # =============================================================================
 # Built-in targets

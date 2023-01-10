@@ -1,8 +1,18 @@
 # ninja log v5
-2	634	6950614106862789	CMakeFiles/C11space.dir/main.cpp.obj	229a3736d7d43506
-2	89	6950618433467642	C11space.exe	97967db7eeb000f4
+1	274	6950661313216800	CMakeFiles/C11space.dir/main.cpp.obj	229a3736d7d43506
+3	240	6950641751039834	CMakeFiles/C11space.dir/Datastructure/07.Graph/Graph.cpp.obj	b3a4323f7db7a13f
 6	76	6893216082520154	CMakeFiles/C11space.dir/线性表：顺序表的插入与删除.cpp.obj	129ed4e105785b3d
+2	231	6950651360285767	CMakeFiles/C11space.dir/C++primer/Day01.cpp.obj	322749b71ad85c6d
 9	77	6893216082529130	CMakeFiles/C11space.dir/线性表：顺序表初始和分配.cpp.obj	9bdca6736cd145a4
+3	227	6950655746631840	CMakeFiles/main.dir/main.cpp.obj	8a42bfb96230a48f
 6	633	6950614106816197	CMakeFiles/C11space.dir/Datastructure/08.Graph/Graph.cpp.obj	6423662033e4d39
-0	124	6950619925515527	build.ninja	3b9454fe62b29f0e
-2	95	6950619981397496	C11space.exe	779be36e3a70e0dc
+0	118	6950662196970602	build.ninja	3b9454fe62b29f0e
+2	226	6950656723187839	CMakeFiles/main.dir/C++primer/Day01.cpp.obj	ae5ad879cd55c6ba
+2	97	6950657985211351	main.exe	a360f447eccf655d
+0	229	6950659971848986	CMakeFiles/Day01.dir/C++primer/Day01.cpp.obj	96952398a5091442
+238	351	6950659973047291	Day01.exe	df27b86ae1a4ba3b
+6	289	6950661313376593	CMakeFiles/C11space.dir/C++primer/Day02.cpp.obj	eb5d3692089fa81c
+0	239	6950662249008241	CMakeFiles/Day02.dir/C++primer/Day02.cpp.obj	7a1ee799d4d50afb
+239	345	6950662250066776	Day02.exe	d83717908e56b510
+0	260	6950662377118626	CMakeFiles/Graph.dir/Datastructure/07.Graph/Graph.cpp.obj	1fbbbe19bc36297
+260	353	6950662377986248	Graph.exe	16952b6c2086db71
