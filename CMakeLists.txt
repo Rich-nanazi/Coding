@@ -4,7 +4,7 @@ project(C11space)
 set(CMAKE_CXX_STANDARD 11)
 
 #add_executable(C11space main.cpp )
-add_executable(C11space Datastructure/08.Graph/Graph.cpp)
+add_executable(C11space Datastructure/07.Graph/Graph.cpp)
 
 # 遍历项目根目录下所有的.cpp文件
 file (GLOB files *.cpp)
