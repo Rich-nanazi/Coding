@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "C11space",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Day01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Day01-Debug-7982dfc7bead944a1db5.json",
+					"name" : "Day01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Day02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Day02-Debug-b1d10e86b957b5958bed.json",
+					"name" : "Day02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Graph::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Graph-Debug-3f07a152c6f5356468a1.json",
+					"name" : "Graph",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-806d8b67fbb1fd90ce34.json",
+					"name" : "main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/\u4e2d\u7535\u91d1\u4fe1/Desktop/private/Coding/cmake-build-debug",
+		"source" : "C:/Users/\u4e2d\u7535\u91d1\u4fe1/Desktop/private/Coding"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

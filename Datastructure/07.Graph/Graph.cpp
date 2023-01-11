@@ -5,6 +5,8 @@
 using namespace std;
 
 int main() {
+    int en=1;
+    cout<<en<<endl;
 
     cout<<"hello graph"<<endl;
     return 0;
